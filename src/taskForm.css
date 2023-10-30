@@ -1,0 +1,75 @@
+/* Стили для всего компонента */
+.task_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.task{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+/* Стили для ввода задачи */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.index{
+  margin-right: 10px;
+}
+/* Стили для кнопки "Add task" */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Стили для списка задач */
+.task_list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  margin: 20px;
+}
+
+/* Стили для отдельной задачи */
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.task__item {
+  flex: 1;
+}
+
+/* Стили для кнопки "Delete" */
+.task button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.task button:hover {
+  background-color: #cc0000;
+}
